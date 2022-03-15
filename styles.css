@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior{
+    background-image: url(./dev.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.topo {
+    padding-top: 38px;
+    padding-left: 35px;
+
+}
+.titulo-topo {
+    font-size: 24px;
+    color: white;
+    display: inline;
+}
+
+.link-topo {
+    font-size: 14px;
+    color: white;
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+h1{
+    font-size: 58px;
+    color: white;
+    position: relative;
+    top: 300px;
+    padding-left: 35px;
+}
+
+form{
+    visibility: hidden;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+.mostrarFormulario{
+    visibility: visible;
+
+}
+.titulo-form{
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label{
+
+    font-size: 14px;
+    color: #252B42;
+}
+
+input{
+    display: block;
+    background-color: #f9f9f9;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea{
+    display: block;
+    background-color: #f9f9f9;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.caixaCentral{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#tituloMeio{
+    
+    text-align: center;
+
+    /* h2 */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #252B42;
+    margin: 10px 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.card{
+    width: 300px;
+    border-radius: 5px;
+    background: #EEF6FF;
+    border: 1px solid #A9D6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.tituloCard{
+    background-color: chartreuse;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+ul{
+    padding: 20px;
+    color: #252B42;
+
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixaInf{
+    background-color: rgb(9, 9, 66);
+}
+
+#tituloInf{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+}
+
+p{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-size: 18px;
+
+}
