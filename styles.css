@@ -11,6 +11,10 @@
     height: 90vh;
 }
 
+.logo{
+    padding-top: 220px;
+    padding-left: 30px;
+}
 .topo {
     padding-top: 38px;
     padding-left: 35px;
@@ -23,7 +27,7 @@
 }
 
 .link-topo {
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     display: inline;
     margin-left: 30px;
@@ -41,7 +45,8 @@ h1{
 }
 
 form{
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s linear;
     background-color: white;
     border-radius: 10px;
     float: right;
@@ -52,8 +57,7 @@ form{
 }
 
 .mostrarFormulario{
-    visibility: visible;
-
+    opacity: 1;
 }
 .titulo-form{
     font-size: 24px;
@@ -63,7 +67,7 @@ form{
 }
 
 label{
-
+    font-weight: bold;
     font-size: 14px;
     color: #252B42;
 }
@@ -92,6 +96,10 @@ textarea{
     border-radius: 5px;
     margin-bottom: 20px;
     padding-left: 10px;
+}
+
+textarea::placeholder{
+    padding-top: 5px;
 }
 
 button{
@@ -129,13 +137,12 @@ button{
     width: 300px;
     border-radius: 5px;
     background: #EEF6FF;
-    border: 1px solid #A9D6FF;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 .tituloCard{
-    background-color: chartreuse;
+    background-color: rgb(15, 21, 109);
     color: white;
     text-align: center;
     padding: 20px;
@@ -149,13 +156,18 @@ ul{
 
 }
 
+ol{
+    padding: 20px;
+    color: #252B42;  
+}
+
 li{
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
 .caixaInf{
-    background-color: rgb(9, 9, 66);
+    background-color: rgb(138, 138, 243);
 }
 
 #tituloInf{
@@ -164,7 +176,7 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 40px;
-
+    padding-top: 20px;
 }
 
 p{
@@ -173,5 +185,11 @@ p{
     padding-right: 100px;
     padding-bottom: 100px;
     font-size: 18px;
+    text-align: justify;
+}
+
+footer{
     text-align: center;
+    background-color: #252B42;
+    color: white;
 }

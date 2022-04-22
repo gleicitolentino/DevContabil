@@ -11,34 +11,34 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,700;1,200;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <title> DEV CONTABIL</title>
+    <link rel="icon" href="./img/devcontabil.png" type=".image/icon type">
+    <title> DEV CONTÁBIL</title>
 </head>
 
 <body>
     <div class="caixa-superior">
 
         <div class="topo">
-
-            <h2 class="titulo-topo">Dev Contabil</h2>
+            <h2 class="titulo-topo">Dev Contábil</h2>
             <a href="#tituloInf" class="link-topo"> Quem Somos</a>
             <a href="#tituloMeio" class="link-topo"> Serviços</a>
             <a class="link-topo" onclick="chamarForm()"> Contato</a>
 
         </div>
 
-        <h1> Dev Contabil</h1>
+        <img class="logo" src="./img/devcontabil.png" alt="Dev Contábil" width="300px">
 
-        <form id="formulario-contato" action="https://formsubmit.co/gleici.tolentino@hotmail.com" method="POST" >
+        <form id="formulario-contato" action="https://formsubmit.co/gleici.tolentino@hotmail.com" method="POST">
             <h3 class="titulo-form"> ENTRE EM CONTATO</h3>
 
             <label>
                 Nome
-                <input type="text" nome="nome" placeholder="Seu Nome" required/>
+                <input type="text" nome="nome" placeholder="Digite seu Nome" required />
             </label>
 
             <label>
                 E-mail
-                <input type="email" nome="email" placeholder="E-mail" required/>
+                <input type="email" nome="email" placeholder="Digite seu e-mail" required />
             </label>
 
             <label>
@@ -51,75 +51,72 @@
     </div>
 
     <h2 id="tituloMeio"> NOSSOS SERVIÇOS</h2>
-    
+
     <div class="caixaCentral">
-       
+
         <div class="card">
             <h3 class="tituloCard"> Contabilidade Completa </h3>
 
             <ul>
                 <li>Primeiro item</li>
-                <li>segundo item</li>
-                <li>terceiro item</li>
-                <li>quaRTO item</li>
-                <li>quinto item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+                <li>Quarto item</li>
+                <li>Quinto item</li>
             </ul>
         </div>
 
         <div class="card">
-            <h3 class="tituloCard"> Cuidamos do seu negocio </h3>
+            <h3 class="tituloCard"> Cuidamos do seu negócio </h3>
 
             <ul>
                 <li>Primeiro item</li>
-                <li>segundo item</li>
-                <li>terceiro item</li>
-                <li>quaRTO item</li>
-                <li>quinto item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+                <li>Quarto item</li>
+                <li>Quinto item</li>
             </ul>
         </div>
 
         <div class="card">
-            <h3 class="tituloCard"> Cuidamos de voce </h3>
+            <h3 class="tituloCard"> Cuidamos de Você </h3>
 
-            <ul>
+            <ol>
                 <li>Primeiro item</li>
-                <li>segundo item</li>
-                <li>terceiro item</li>
-                <li>quaRTO item</li>
-                <li>quinto item</li>
-            </ul>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+                <li>Quarto item</li>
+                <li>Quinto item</li>
+            </ol>
         </div>
     </div>
 
     <div class="caixaInf">
         <h2 id="tituloInf"> Sobre nós </h2>
 
-        <p>Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já
-            atuam ou desejam abrir seus negócios e ingressar no Brasil.
-<br>
-            Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”)
-            interessados em fazer negócios em outros países.
-            Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a
-            abertura, legalização e regularização de empresas e negócios.
-<br>
-            Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de suas
-            atividades, com profissionais qualificados, competentes e continuamente treinados.
-<br>
-            Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento
-            das Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo
-            incorporação ou desmembramento de atividades.
+        <p>Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
+        <br>
+        <br>
+        Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”) interessados em fazer negócios em outros países. Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a abertura, legalização e regularização de empresas e negócios.
+        <br>
+        <br>
+        Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de suas atividades, com profissionais qualificados, competentes e continuamente treinados.
+        <br>
+        <br>
+        Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento das Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo incorporação ou desmembramento de atividades.
         </p>
     </div>
 
+    <footer>Desenvolvido por Gleiciane Tolentino - 2022</footer>
 </body>
 
 <script>
- 
+
     let formulario = document.getElementById("formulario-contato")
 
     console.log(formulario)
 
-    function chamarForm (){
+    function chamarForm() {
 
         formulario.className = "mostrarFormulario"
     }
